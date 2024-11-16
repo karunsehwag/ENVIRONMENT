@@ -1,9 +1,12 @@
 {
-  "name": "app",
+  "name": "your-app-name",
   "version": "1.0.0",
   "scripts": {
     "start": "concurrently \"npm run start:backend\" \"npm run start:climate-change-app\"",
     "start:backend": "cd backend && npm install && npm run start",
     "start:climate-change-app": "cd climate-change-app && npm install && npm run start"
+  },
+  "dependencies": {
+    "concurrently": "^7.0.0"
   }
-
+}
