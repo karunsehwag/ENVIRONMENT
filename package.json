@@ -1,7 +1,6 @@
-{
-  "scripts": {
-    "start": "npm run start:backend & npm run start:climate-change-app", 
-    "start:backend": "cd backend && npm install && npm run start", 
-    "start:climate-change-app": "cd climate-change-app && npm install && npm run start"
-  }
+"scripts": {
+  "start": "npm run start:backend && npm run start:climate-change-app",
+  "start:backend": "cd backend && npm install && npm run start",
+  "start:climate-change-app": "cd climate-change-app && npm install && npm run start"
 }
+
